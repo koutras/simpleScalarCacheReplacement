@@ -147,6 +147,7 @@
 /* by a.k */
 
 int ipv[17]={0,0,1,0,3,0,1,2,1,0,5,1,0,0,1,11,13}; //the  17th value just denodes where an insertion is made
+//int ipv[17]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}; // use this vector to work as an lru
 
 void printTableLeafs(struct cache_set_t *aSet);
 void printPRLUTree(struct cache_set_t *aSet);
